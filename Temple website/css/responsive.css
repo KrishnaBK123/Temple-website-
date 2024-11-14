@@ -1,0 +1,171 @@
+/* Responsive Design 1st header  */
+@media (max-width: 767px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .contact-info, .social-icons, .donate-btn {
+        margin-bottom: 15px;
+    }
+
+    .contact-info {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .donate-btn {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    /* Responsive adjustments if needed */
+@media (max-width: 768px) {
+    .temple-timings {
+        font-size: 12px; /* Adjust font size on smaller screens */
+    }
+}
+}
+/* ist header over */
+
+/* 2nd header start */
+@media (max-width: 767px) {
+    .header {
+        padding: 10px 0;
+    }
+
+    .navbar-nav {
+        margin-top: 15px;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 10px 0;
+    }
+
+    .logo img {
+        max-width: 80px; /* Reduced logo size for smaller screens */
+    }
+}
+
+/* hero section  */
+@media (max-width: 768px) {
+    .hero-banner h1.title {
+        font-size: 2rem;
+    }
+
+    .hero-banner p.blockquote {
+        font-size: 1rem;
+    }
+
+    .section-button a.sigma_btn-custom {
+        padding: 8px 16px;
+    }
+
+    .section-button {
+        flex-direction: column;
+    }
+
+    .section-button a.ms-3 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-banner h1.title {
+        font-size: 1.5rem;
+    }
+
+    .hero-banner p.blockquote {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+/* about section  */
+/* Responsive Styling */
+@media (max-width: 767px) {
+    .about-us-section {
+        padding: 30px 0;
+    }
+
+    .about-us-content h2 {
+        font-size: 2em;
+    }
+
+    .about-us-content p {
+        font-size: 1em;
+    }
+
+    .about-us-content .sigma_btn-custom {
+        font-size: 1em;
+        padding: 8px 16px;
+    }  
+}
+   
+/* contact us  */
+@media (max-width: 767px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-form-section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-description {
+        font-size: 1rem;
+    }
+}
+
+/* footer section start */
+/* Responsive Styling */
+@media (max-width: 767px) {
+    .footer-nav {
+        margin-bottom: 10px;
+    }
+
+    .footer-logo {
+        margin-bottom: 15px;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+
+    .social-icon {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+    .col-lg-4 {
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .col-lg-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .filter-items h5 {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  

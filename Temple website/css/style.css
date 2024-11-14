@@ -1,0 +1,718 @@
+/* 1st header start */
+body {
+    background-color: none; /* Light Beige */
+    color: #333333; /* Charcoal Gray for text */
+    font-family: 'Georgia', serif; /* A more elegant font */
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #ffeccc; /* Light peach background */
+    padding: 5px 0;
+    border-bottom: 2px solid #ffca2c; /* Golden border */
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #d4af37; /* Dark brown */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Header Timings Styling */
+.temple-timings {
+    font-size: 18px; /* Adjust size as needed */
+    color: #ffca2c; /* Adjust color as needed */
+    margin: 0;
+}
+
+.temple-timings i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+
+.social-icons a {
+    color: #d4af37;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffca2c; /* Golden hover */
+}
+
+.donate-btn {
+    background-color: #ffca2c; /* Golden button */
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-right: 10%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.donate-btn:hover {
+    background-color: #e0b722; /* Darker gold on hover */
+    color: #fff;
+}
+/* 1st header over */
+
+/* 2nd header start */
+
+.nav-link {
+    color: #ffd700;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav-link.active {
+    color: #ffd700 !important ;/* Highlight color */
+    font-weight: bold; /* Optional: Make the active link bold */
+    text-decoration: underline; /* Underline the active link */
+  }
+
+
+.header {
+    background-color: #800000; /* Maroon color background */
+    padding: 3px 0; /* Reduced padding */
+    border-bottom: 2px solid #d4af37; /* Golden border */
+    position: relative;
+}
+
+.logo img {
+    max-width: 90px; /* Reduced logo size */
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #d4af37; /* Golden font color */
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Brighter golden hover */
+}
+
+a {
+    color: #800000; /* Maroon for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Hero Section Styling */
+.carousel-caption {
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    max-width: 45%;
+}
+
+.carousel-caption .display-3 {
+    font-size: 2.5rem; /* Adjust the size as needed */
+}
+
+.carousel-caption .lead {
+    margin-top: 10px;
+}
+
+.hero-slider {
+    position: relative;
+    height: 80vh; /* Full viewport height */
+    overflow: hidden; /* Hide overflow */
+}
+
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btn-primary {
+    background-color: #d4af37; /* Gold color for buttons */
+    border-color: #d4af37;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+.hero-slider .carousel-item {
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-slider .carousel-caption {
+    bottom: 20%;
+    color: #fff;
+}
+
+.hero-slider .carousel-control-prev,
+.hero-slider .carousel-control-next {
+    width: 5%; /* Adjust control width as needed */
+}
+
+
+/* hero section end */
+
+/* /* Events cards / */
+.event-social {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the icons horizontally */
+    margin-top: 10px; /* Add some space above the icons */
+}
+
+.event-social li {
+    margin: 0 10px; /* Add space between each icon */
+}
+
+.event-social li a {
+    font-size: 20px; /* Adjust the icon size if needed */
+    color: #000; /* Icon color */
+    transition: color 0.3s; /* Smooth color change on hover */
+}
+
+.event-social li a:hover {
+    color: #ff6600; /* Change icon color on hover */
+}
+
+
+
+
+/* About Section */
+.about-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.about-section .image-stack {
+    position: relative;
+    height: 100%;
+}
+
+.about-section .image-stack img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.about-section .content {
+    padding-left: 30px;
+}
+
+.about-section .title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #060606; /* Maroon color */
+}
+
+.about-section .list-unstyled li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about-section .list-unstyled li i {
+    font-size: 20px;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #666;
+}
+
+.about-section .btn-outline-danger {
+    background-color: #800000;
+    border: 2px solid #b52d3e;
+    color: #d4af37;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.about-section .btn-outline-danger:hover {
+    background-color: #800000;
+    color: #ffca2c;
+}
+
+/* Events sections  */
+
+/* Events Section Title and Subtitle */
+.events-section {
+    text-align: center; /* Center align the text */
+    padding: 20px; /* Optional padding around the section */
+    color:#060606;
+}
+
+.section-title {
+    font-size: 2rem; /* Font size for the title */
+    font-weight: bold;
+    margin-bottom: 10px; /* Space below the title */
+    color:  #060606;
+}
+
+.section-subtitle {
+    font-size: 1.2rem; /* Font size for the subtitle */
+    color: #800000; /* Subtitle color */
+    margin-bottom: 20px; /* Space below the subtitle */
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    height: 100%; /* Ensure the card takes full height of the column */
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-image {
+    width: 100%;
+    height: 200px; /* Fixed height for the image container */
+    overflow: hidden;
+}
+
+.event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+
+.event-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.event-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:#060606;
+    margin-bottom: 10px;
+}
+
+.event-date,
+.event-time,
+.event-venue {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    background-color: #800000; /* Maroon color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.btn-primary:hover {
+    background-color: #600000; /* Darker maroon color */
+    color:#ffca2c;
+}
+.btn-secondary {
+    background-color: #800000; /* Light gray color for the button */
+    border: 1px solid #ddd; /* Border color */
+    color: #faf3f3; /* Text color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background-color: #800000; /* Slightly darker gray on hover */
+    color:#eb8908; /* Darker text color on hover */
+}
+
+
+
+
+/* contact us  */
+/* Contact Us Section */
+.contact-us-section {
+    background-color: #f9f9f9;
+}
+
+.map-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card .icon {
+    color: #800000; /* Gold color */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:#060606;
+   
+}
+
+.card-text {
+    color: #333;
+}
+
+/* Image Section with Page Name */
+.page-banner {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #080808; /* Maroon color */
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #010101; /* Maroon color */
+}
+
+.form-control {
+    border: 1px solid #494646;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #800000; /* Gold color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    color: #fcc604; /* Darker gold on hover */
+}
+
+
+/* adminstration page  */
+/* Hero Banner Section */
+.admin-hero-banner {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.page-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Administrations Section */
+.administrations-section {
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #060606; /* Maroon color */
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: calc(100% + 10%); /* Increases height by 10% */
+    align-content: center;
+}
+
+
+.card-img-top {
+    border-radius: 50%; /* Makes the image circular */
+    width: 200px; /* Ensure the width is the same as the height */
+    height: 200px; /* Set a fixed height for the circle */
+    object-fit: cover; /* Ensures the image covers the circle area without distortion */
+    margin: 0 auto; /* Centers the image within the card */
+
+}
+
+
+.card-title {
+    font-size: 1.25rem;
+    color: #040404; /* Maroon color */
+}
+
+.card-text {
+    color: #666;
+}
+
+
+/* footer section start */
+/* General Footer Styling */
+.footer .col-md-4 {
+    text-align: left;
+}
+
+.footer-nav {
+    text-align: left;
+    margin-left: 100px;
+}
+
+address {
+    text-align: left;
+    margin-left: 100px;
+
+}
+.footer {
+    background-color: #800000; /* Maroon */
+    position:relative;
+    color: #FFD700; /* Gold */
+    padding: 5px 0;
+    font-family: 'Georgia', serif; /* Matching the font style */
+    text-align: left;
+}
+
+
+
+.footer-logo {
+    max-width: 150px; /* Adjust based on your logo size */
+    margin-bottom: 15px;
+}
+
+.footer-content {
+    margin-top: 10px;
+    color: #FFD700; /* Gold */
+}
+
+.social-media {
+    display: flex; /* Use flexbox */
+    justify-content: end;
+    gap: 10vh; /* Optional: Add space between icons */
+    padding: 10px; /* Optional: Add padding around the icons */
+    margin-left: 45%;
+}
+
+.social-icon {
+    font-size: 1.5rem; /* Adjust icon size as needed */
+    color: #e9c007; /* Default icon color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.social-icon:hover {
+    color: #dccf13; /* Change color on hover (example: blue) */
+}
+
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.footer-nav a {
+    color: #FFD700; /* Gold */
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+footer address {
+    color: #FFD700; /* Gold */
+}
+
+.footer-address p {
+    margin-bottom: 10px; /* Adjust this value for more or less space */
+    line-height: 0.5 px;    /* Adjust this value to control the line height */
+}
+
+
+/* gallery*/
+/* Section Padding */
+.section-padding {
+    padding: 60px 0;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Filter Items */
+.filter-items {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-items h5 {
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-items h5.active,
+.filter-items h5:hover {
+    background-color: #800000;
+    color: goldenrod;
+}
+
+/* Portfolio Items */
+.sigma_portfolio-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.sigma_portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+    border-radius: 5px;
+}
+
+.sigma_portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.sigma_portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.sigma_portfolio-item a {
+    display: block;
+}
+
+/* Responsive Grid */
+@media (min-width: 768px) {
+    .coaching, .stakeholder, .strategy, .relations {
+        float: left;
+        width: 33.3333%;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .coaching, .stakeholder, .strategy, .relations {
+        float: left;
+        width: 50%;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .coaching, .stakeholder, .strategy, .relations {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .filter-items h5 {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
+
+/* Clearfix for Floating Elements */
+.container::after,
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
